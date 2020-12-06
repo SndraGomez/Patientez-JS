@@ -1,0 +1,66 @@
+body{
+    background-color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%) ;
+}
+
+ul li{
+    font-size: 60px;
+    color: rgb(54, 54, 52);
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 15px;
+    animation: flash 1.5s linear infinite;
+}
+
+@keyframes flash {
+   
+    0% {
+        color: rgb(54, 54, 51);
+        text-shadow: none;
+    }
+    90% {
+        color: rgb(54, 54, 51);
+        text-shadow: none;
+    }
+    100% {
+        color: yellow;
+        text-shadow: 0 0 7px yellow, 0 0 20px orange;
+    }
+}
+
+ul li:nth-child(1){
+    animation-delay: 0.1s;
+}
+ul li:nth-child(2){
+    animation-delay: 0.2s;
+}
+ul li:nth-child(3){
+    animation-delay: 0.3s;
+}    
+ul li:nth-child(4){
+    animation-delay: 0.4s;
+}
+ul li:nth-child(5){
+    animation-delay: 0.5s;
+}
+ul li:nth-child(6){
+    animation-delay: 0.6s;
+}
+ul li:nth-child(7){
+    animation-delay: 0.7s;
+}
+ul li:nth-child(8){
+    animation-delay: 0.8s;
+}
+ul li:nth-child(9){
+    animation-delay: 0.9s;
+}
